@@ -1,0 +1,2 @@
+[28-Mar-2021 14:03:14 UTC] PHP Warning:  require_once(/home/jktppypj/public_html/nandankids/nandankids/system/core/CodeIgniter.php): failed to open stream: No such file or directory in /home/jktppypj/public_html/nandankids/nandankids/index.php on line 315
+[28-Mar-2021 14:03:14 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/jktppypj/public_html/nandankids/nandankids/system/core/CodeIgniter.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/jktppypj/public_html/nandankids/nandankids/index.php on line 315

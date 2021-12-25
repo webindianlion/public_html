@@ -1,0 +1,103 @@
+
+
+@media only screen and (max-width: 1024px) {
+
+    .bodyContact .formContact {
+        padding: 20px;
+        width: 320px;
+        left: calc(50% - 160px);
+        top: 80px;
+    }
+    .bodyContact .formContact h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .formContact .form-group {
+        margin-bottom: 10px;
+    }
+
+    .bodyContact .containerr {
+        min-height: 400px;
+    }
+
+    .home ul.topbarMenu {
+        background: #141526ed;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .containerr {
+        height: 300px;
+    }
+
+    .videoText {
+        width: 90%;
+        left: 5%;
+
+        h1 {
+            font-size: 40px;
+        }
+    }
+    .about {
+
+        .videoText h1 {
+            font-size: 40px;
+        }
+        .whyWebsite .cardd {
+            max-width: 96%;
+        }
+
+    } 
+
+    .home .whyWebsite .cardd {
+        min-width: 96%;
+    }
+    .footerr ul {
+        padding: 0 10px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 480px) { 
+
+    .videoText {
+
+        h1 {
+            font-size: 30px;
+        }
+    }
+    .about .videoText h1 {
+        font-size: 30px;
+    }
+
+    .bodyContact .formContact {
+        padding: 10px;
+        width: 300px;
+        left: calc(50% - 150px);
+    }
+    .topMenu { 
+        padding: 10px;
+
+        .logoText {
+            padding: 0;
+        }
+    }
+    .footerr {
+        padding: 10px;
+
+        & > div {
+            flex-direction: column;
+            padding: 10px;
+    
+            ul {
+                padding: 0;
+            }
+            .copywrite {
+                margin-top: 20px;
+            }
+        }
+    }
+}
