@@ -124,7 +124,7 @@
         <h3 class="ttl"> Who we are? </h3>
         <p class="subTtl"> Sub-Title </p>
         <div class="row">
-            <p class="lead text-center"> Inforises Technologies is a Software and web development company established in 2013 serving domestic and offshore clients in various technical aspects. Our vision is to become a world leader in Vertical IT solutions and services. To achieve our vision, our team strives to deliver innovative, reliable and cost effective solutions and services. Our main vision is to deliver innovative and cost effective products to the clients. We have the ability to discover, design, develop and deliver both inative and Cross-platform mobile applications for all the platforms in trend. Inforises Technologies deals with all kinds of website and software development services in India. An ideal workflow process is being followed in our company and all the employees and managers have their own authority, accountability and responsibility. We encourage our workers for fair and innovative work. Also, we keep changing the methods and techniques of our working. Usually, the company's progress is inspected by the senior managers. Inforises Technologies are here to serve the best software and web development services to our clients.
+            <p class="lead text-center"> inWebService is a web development Solution provider. Established in 2013 serving domestic and offshore clients in various technical aspects. Our vision is to give technical support to our client's business. To achieve our vision, our team strives to deliver innovative, reliable and cost effective solutions and services. We have the ability to discover, design, develop and deliver both inative and Cross-platform mobile applications for all the platforms in trend. inWebService deals with all kinds of website services. An ideal workflow process is being followed by us. We get encouragement from our clients for our fair and innovative work. Also, we keep updating the methods and techniques of our working. inWebService are here to serve the best web development services to our clients.
             </p>
         </div>
     </section>
@@ -133,13 +133,13 @@
         <h3 class="ttl"> Why Choose Us </h3>
         <p class="subTtl"> Sub-Title </p>
         <div class="row">
-            <p class="lead text-center"> Inforises is a software and website development company which provides quality services to its customers. Inforises has newly adopted a customer focused approach and an easy way to communicate with them. We deliver strong and recently updated content to our clients. Here, we design and develop the applications as per the need of our customers. A team of highly skilled workers is available 24 hours for any kind of repairing and maintenance of software. We deliver quality services at considerable prices. </p>
+            <p class="lead text-center"> inWebService is a ideal website development service provider. inWebService has newly adopted a customer focused approach and an easy way to communicate with them. We deliver strong and recently updated content to our clients. Here, we design and develop the applications as per the need of our customers. A team of highly skilled workers is available 24 hours for any kind of updation. We deliver quality services at considerable prices. </p>
             <div class="row">
                 <div class="col-md-6 mb-3">
                     <div class="card">
                         <div class="card-body">
                             <h4> Reliable </h4>
-                            <p class="fw-normal"> You can trust inforises in terms of quality and cost of services. Our company is the most reliable source of information. We work efficiently and in an integrated environment. We completely perform under the conditions given by our clients. </p>
+                            <p class="fw-normal"> You can trust inWebService in terms of quality and cost of services. Our company is the most reliable source of information. We work efficiently and in an integrated environment. We completely perform under the conditions given by our clients. </p>
                         </div>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h4> Support & Service </h4>
-                            <p class="fw-normal"> Our company is available 24 hours for our customers. We provide complete support to our staff and employees as well as our customers. All types of software testing, repairing and maintenance is provided by us. </p>
+                            <p class="fw-normal"> Our company is available all working days for our customers. We provide complete support to our customers. All types of website testing, and maintenance is provided by us. </p>
                         </div>
                     </div>
                 </div>
@@ -155,7 +155,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h4> Experienced </h4>
-                            <p class="fw-normal"> Inforises have 7 years of experience in the field of software and websites development. We successfully managed to deal with thousands of clients in past years. We work and take decisions on the basis of our past experience. </p>
+                            <p class="fw-normal"> inWebService have 7 years of experience in the field of websites development. We successfully managed to deal with thousands of clients in past years. We work and take decisions on the basis of our past experience. </p>
                         </div>
                     </div>
                 </div>
@@ -163,7 +163,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h4> Quality Assurance </h4>
-                            <p class="fw-normal"> Inforises ensures you to provide standard quality of services at a reasonable price. We aim to satisfy the requirements and demands of our customers.Various innovative working methods are adopted by us to fullfill needs. </p>
+                            <p class="fw-normal"> inWebService ensures you to provide standard quality of services at a reasonable price. We aim to satisfy the requirements and demands of our customers.Various innovative working methods are adopted by us to fullfill needs. </p>
                         </div>
                     </div>
                 </div>
@@ -174,7 +174,7 @@
     <div class="b-example-divider"></div>
     <section class="container my-5">
         <h3 class="ttl"> Strategy We use to Buid Website </h3>
-        <p class="subTtl"> To create a website, we have to follow the various strategies. First of all, we have to choose our goal, i.e. to find the customers. Then we check the scope to achieve our goal. A perfect strategy is chosen and a site is created. </p>
+        <p class="subTtl"> To create a website, we have to follow the various strategies. First of all, we have to choose our goal. Then we check the scope to achieve our goal. A perfect strategy is chosen and a site is created. </p>
         <div class="row">
             <div class="col-md-6 mb-3">
                 <div class="card">
@@ -204,7 +204,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h4> Development </h4>
-                        <p> An attractive subs eye catching website is created by Inforises to draw the attention of clients towards the company. It leads to improved user's experience and makes an increase in mobile traffic. </p>
+                        <p> An attractive subs eye catching website is created by inWebService to draw the attention of clients towards the company. It leads to improved user's experience and makes an increase in mobile traffic. </p>
                     </div>
                 </div>
             </div>
@@ -212,7 +212,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h4> Testing </h4>
-                        <p> An attractive subs eye catching website is created by Inforises to draw the attention of clients towards the company. It leads to improved user's experience and makes an increase in mobile traffic. </p>
+                        <p> An attractive subs eye catching website is created by inWebService to draw the attention of clients towards the company. It leads to improved user's experience and makes an increase in mobile traffic. </p>
                     </div>
                 </div>
             </div>
@@ -220,7 +220,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h4> Deployment </h4>
-                        <p> An attractive subs eye catching website is created by Inforises to draw the attention of clients towards the company. It leads to improved user's experience and makes an increase in mobile traffic. </p>
+                        <p> An attractive subs eye catching website is created by inWebService to draw the attention of clients towards the company. It leads to improved user's experience and makes an increase in mobile traffic. </p>
                     </div>
                 </div>
             </div>
@@ -316,8 +316,6 @@
             </div>
         </div>
     </section>
-    <div class="b-example-divider"></div>
-    <!-- <div class="seprator"></div> -->
     <?php include './common/footer.php' ?>
 
 </body>
