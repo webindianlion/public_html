@@ -50,10 +50,10 @@
     font-size: 40px;
   }
   .about .whyWebsite .cardd {
-    max-width: 96%;
+    /* max-width: 96%; */
   }
   .home .whyWebsite .cardd {
-    min-width: 96%;
+    /* min-width: 96%; */
   }
   .footerr ul {
     padding: 0 10px;

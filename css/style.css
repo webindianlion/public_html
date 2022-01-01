@@ -233,8 +233,8 @@
   width: initial;
 }
 .design .cardd, .development .cardd, .writing .cardd, .marketing .cardd {
-  max-width: 29%;
-  min-width: 300px;
+  /* max-width: 29%; */
+  /* min-width: 300px; */
   font-size: 16px;
   font-weight: 500;
   color: #2f3049;
@@ -325,7 +325,7 @@
   text-align: center;
 }
 .container .cardd {
-  max-width: 29%;
+  /* max-width: 29%; */
   font-size: 16px;
   font-weight: 500;
   color: #2f3049;
