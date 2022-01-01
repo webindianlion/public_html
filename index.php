@@ -24,8 +24,8 @@
     <section class="container whyWebsite ">
         <h3 class="ttl">Why your business need a website?</h3>
         <p class="subTtl">Lets give more space to your business to expend via internet with the website wings.</p>
-        <div class="row g-5 d-flex justify-content-between">
-            <div class="col-lg-5 textPart">
+        <div class="row row-cols-1  row-cols-lg-2 g-4 py-5">
+            <div class="col textPart">
                 <div class="list-group">
                     <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Your business brand credibility is proven by your business website.</a>
                     <a href="#" class="list-group-item list-group-item-action list-group-item-warning"> Your business brand are Easily Accessible with business website. </a>
@@ -38,7 +38,7 @@
                     <a href="#" class="list-group-item list-group-item-action list-group-item-primary"> Most impotantly All of your competitors are already having a business website. </a>
                 </div>
             </div>
-            <div class="col-lg-7">
+            <div class="col">
                 <img src="./images/why-your-business-need-website.jpg" class="w-100 shadow-sm p-2 rounded pt-0">
             </div>
         </div>
@@ -49,7 +49,7 @@
     <section class="container expertise">
         <h3 class="ttl"> Our Expertise</h3>
         <p class="subTtl"> We are best in Industry for the following web development tasks. </p>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+        <div class="row">
             <div class="cardd col" data-aos="fade-up">
                 <p> PSD to HTML5 Conversion </p>
             </div>
@@ -83,7 +83,7 @@
     <section class="container">
         <h3 class="ttl"> Technologies We Use</h3>
         <p class="subTtl"> We use latest technologies in the market. </p>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+        <div class="row">
             <div class="cardd col" data-aos="fade-up">
                 <p> HTML5 </p>
             </div>
@@ -137,7 +137,7 @@
         <p class="subTtl"> Sub-Title </p>
         <div class="row">
             <article> Inforises is a software and website development company which provides quality services to its customers. Inforises has newly adopted a customer focused approach and an easy way to communicate with them. We deliver strong and recently updated content to our clients. Here, we design and develop the applications as per the need of our customers. A team of highly skilled workers is available 24 hours for any kind of repairing and maintenance of software. We deliver quality services at considerable prices. </article>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+            <div class="row">
                 <div class="cardd col" data-aos="fade-up">
                     <h4> Reliable </h4>
                     <p> You can trust inforises in terms of quality and cost of services. Our company is the most reliable source of information. We work efficiently and in an integrated environment. We completely perform under the conditions given by our clients. </p>
@@ -162,7 +162,7 @@
     <section class="container">
         <h3 class="ttl"> Strategy We use to Buid Website </h3>
         <p class="subTtl"> To create a website, we have to follow the various strategies. First of all, we have to choose our goal, i.e. to find the customers. Then we check the scope to achieve our goal. A perfect strategy is chosen and a site is created. </p>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+        <div class="row">
             <div class="cardd col" data-aos="fade-up">
                 <h4> Requirment </h4>
                 <p> The complete information regarding content of the website is searched and useful data is edited on the webpage. Taste and preference of the customer should be well known to the web developer. </p>
@@ -201,7 +201,7 @@
     <section class="container">
         <h3 class="ttl"> 6999 INR Only </h3>
         <p class="subTtl"> Simply Contact Us To Know More </p>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+        <div class="row">
             <div class="cardd col" data-aos="fade-up">
                 <h4> AMP Enabled </h4>
             </div>
