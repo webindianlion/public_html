@@ -94,5 +94,8 @@
   .footerr > div .copywrite {
     margin-top: 20px;
   }
+  .container .cardd{width: 100%;}
+  .container .ttl { font-size: 30px; }
+  
 }
 /*# sourceMappingURL=style_responsive.css.map */
