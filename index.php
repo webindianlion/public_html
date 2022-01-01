@@ -9,10 +9,10 @@
         <div id="particles-js">
             <canvas class="particles-js-canvas-el" width="659" height="472"></canvas>
         </div>
-        <div class="videoText position-absolute top-50  w-100">
+        <div class="videoText d-flex flex-column justify-content-center align-items-center position-absolute h-100 container-fluid">
             <!-- <h1> inwebservice <span>  We are commited to assist our business clients to develop and maintain their websites. </span> </h1> -->
-            <h1 class="container m-auto pt-1">For impactful and innovative digital solutions</h1>
-            <p class="container m-auto pt-1">You can choose us as your technology partner.</p>
+            <h1 class="">For impactful and innovative digital solutions</h1>
+            <p class="pt-2">You can choose us as your technology partner.</p>
             <!-- <p class="top_45 for-web typewriter" >
                 <span class="typed"></span><span>|</span>
             </p> -->

@@ -9,7 +9,7 @@ if (winTop >= 1) {    $('.nav').addClass('fixed').removeClass('top');
 $(document).ready(function () {
     var containerr_height = $('.containerr').height();  
     var typewriter_height = $(".containerr .videoText").height();
-    $(".containerr .videoText").css("top", containerr_height / 2 - typewriter_height / 2);
+    // $(".containerr .videoText").css("top", containerr_height / 2 - typewriter_height / 2);
 
 
     // script to add active class to top menu bar

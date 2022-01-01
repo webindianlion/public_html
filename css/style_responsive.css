@@ -20,9 +20,24 @@
   }
 }
 
+@media only screen and (max-width: 992px) {
+
+  /* .topMenu {
+    background-color: #141526;
+  } */
+  .topMenu ul li {
+    border-bottom: 1px solid #ffffff54;
+}
+}
+
+
+
+
+
+
 @media only screen and (max-width: 768px) {
   .containerr {
-    height: 300px;
+    height: 400px;
   }
   .videoText {
     width: 90%;
