@@ -11,22 +11,18 @@
             <canvas class="particles-js-canvas-el" width="659" height="472"></canvas>
         </div>
         <div class="videoText d-flex flex-column justify-content-center align-items-center position-absolute h-100 container-fluid">
-            <!-- <h1> inwebservice <span>  We are commited to assist our business clients to develop and maintain their websites. </span> </h1> -->
             <h1 class="">For impactful and innovative digital solutions</h1>
             <p class="pt-2">You can choose us as your technology partner.</p>
-            <!-- <p class="top_45 for-web typewriter" >
-                <span class="typed"></span><span>|</span>
-            </p> -->
         </div>
 
     </div>
 
-    <section class="container whyWebsite ">
+    <section class="container whyWebsite py-5">
         <h3 class="ttl">Why your business need a website?</h3>
         <p class="subTtl">Lets give more space to your business to expend via internet with the website wings.</p>
-        <div class="row row-cols-1  row-cols-lg-2 g-4 py-5">
+        <div class="row row-cols-1  row-cols-lg-2 g-4 pt-3">
             <div class="col textPart">
-                <div class="list-group">
+                <div class="list-group p-2">
                     <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Your business brand credibility is proven by your business website.</a>
                     <a href="#" class="list-group-item list-group-item-action list-group-item-warning"> Your business brand are Easily Accessible with business website. </a>
                     <a href="#" class="list-group-item list-group-item-action list-group-item-success"> Your business website builds a relationship with your existing clients and your potietial. </a>
@@ -39,14 +35,15 @@
                 </div>
             </div>
             <div class="col">
-                <img src="./images/why-your-business-need-website.jpg" class="w-100 shadow-sm p-2 rounded pt-0">
+                <img src="./images/why-your-business-need-website.jpg" class="w-100 shadow-sm p-2 rounded">
             </div>
         </div>
     </section>
 
-    <div class="seprator"></div>
+    <!-- <div class="seprator"></div> -->
+    <div class="b-example-divider"></div>
 
-    <section class="container expertise">
+    <section class="container expertise py-5">
         <h3 class="ttl"> Our Expertise</h3>
         <p class="subTtl"> We are best in Industry for the following web development tasks. </p>
         <div class="row">
@@ -79,8 +76,8 @@
             </div>
         </div>
     </section>
-
-    <section class="container">
+    <div class="b-example-divider"></div>
+    <section class="container py-5">
         <h3 class="ttl"> Technologies We Use</h3>
         <p class="subTtl"> We use latest technologies in the market. </p>
         <div class="row">
@@ -122,8 +119,8 @@
             </div>
         </div>
     </section>
-
-    <section class="container">
+    <div class="b-example-divider"></div>
+    <section class="container py-5">
         <h3 class="ttl"> Who we are? </h3>
         <p class="subTtl"> Sub-Title </p>
         <div class="row">
@@ -140,19 +137,19 @@
             <div class="row">
                 <div class="cardd col" data-aos="fade-up">
                     <h4> Reliable </h4>
-                    <p> You can trust inforises in terms of quality and cost of services. Our company is the most reliable source of information. We work efficiently and in an integrated environment. We completely perform under the conditions given by our clients. </p>
+                    <p class="fw-normal"> You can trust inforises in terms of quality and cost of services. Our company is the most reliable source of information. We work efficiently and in an integrated environment. We completely perform under the conditions given by our clients. </p>
                 </div>
                 <div class="cardd col" data-aos="fade-up">
                     <h4> Support & Service </h4>
-                    <p> Our company is available 24 hours for our customers. We provide complete support to our staff and employees as well as our customers. All types of software testing, repairing and maintenance is provided by us. </p>
+                    <p class="fw-normal"> Our company is available 24 hours for our customers. We provide complete support to our staff and employees as well as our customers. All types of software testing, repairing and maintenance is provided by us. </p>
                 </div>
                 <div class="cardd col" data-aos="fade-up">
                     <h4> Experienced </h4>
-                    <p> Inforises have 7 years of experience in the field of software and websites development. We successfully managed to deal with thousands of clients in past years. We work and take decisions on the basis of our past experience. </p>
+                    <p class="fw-normal"> Inforises have 7 years of experience in the field of software and websites development. We successfully managed to deal with thousands of clients in past years. We work and take decisions on the basis of our past experience. </p>
                 </div>
                 <div class="cardd col" data-aos="fade-up">
                     <h4> Quality Assurance </h4>
-                    <p> Inforises ensures you to provide standard quality of services at a reasonable price. We aim to satisfy the requirements and demands of our customers.Various innovative working methods are adopted by us to fullfill needs. </p>
+                    <p class="fw-normal"> Inforises ensures you to provide standard quality of services at a reasonable price. We aim to satisfy the requirements and demands of our customers.Various innovative working methods are adopted by us to fullfill needs. </p>
                 </div>
             </div>
 
