@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include './common/head.php' ?>
-
 <body class="home">
 
     <?php include './common/topmenu.php' ?>
@@ -25,15 +24,14 @@
             </div>
             <div class="col-12 textPart">
                 <div class="list-group p-2">
-                    <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Your business brand credibility is proven by your business website.</a>
-                    <a href="#" class="list-group-item list-group-item-action list-group-item-warning"> Your business brand is Easily Accessible with a business website. </a>
-                    <a href="#" class="list-group-item list-group-item-action list-group-item-success"> Your business website builds a relationship with your existing and your potential clients. </a>
-                    <a href="#" class="list-group-item list-group-item-action list-group-item-danger"> Your business website can be a Showcase of Your Products or Services. </a>
-                    <a href="#" class="list-group-item list-group-item-action list-group-item-warning"> Your business website increases the visibility of your brand. </a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-primary">First and most importantly almost all of your competitors are already having a business website. </a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-warning"> Your products or services are easily accessible by a website to your online clients </a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-primary">A website helps to increase your business credibility.</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-success"> A website builds a relationship with your existing and your potential clients. </a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-warning"> Your business website increases the visibility of your products and services. </a>
                     <a href="#" class="list-group-item list-group-item-action list-group-item-info"> Your business website always gives you the benefit of Google Searches </a>
                     <a href="#" class="list-group-item list-group-item-action list-group-item-dark"> Your business website can strategically target your customers. </a>
-                    <a href="#" class="list-group-item list-group-item-action list-group-item-warning"> Your business website is always an important tool of online marketing. </a>
-                    <a href="#" class="list-group-item list-group-item-action list-group-item-primary"> Most importantly All of your competitors are already having a business website. </a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-warning"> Your business website is always an important tool of online marketing/advertising. </a>
                 </div>
             </div>
         </div>
@@ -42,92 +40,154 @@
     <!-- <div class="seprator"></div> -->
     <div class="b-example-divider"></div>
 
-    <section class="container expertise py-5">
-        <h3 class="ttl text-primary"> Our Expertise</h3>
-        <p class="subTtl"> We are best in Industry for the following web development tasks. </p>
-        <div class="row">
+    <section class="expertise py-5">
+        <div class="container">
+            <h3 class="ttl text-primary"> Our Expertise</h3>
+            <p class="subTtl"> We are best in Industry for the following web development tasks. </p>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="rounded-circle card-img mx-auto d-flex align-items-center justify-content-center mt-3"><i class="fas fa-laptop-code"></i></div>
+                        <div class="card-body border-0">
+                            <h5 class="card-title text-center"> PSD to HTML5 Conversion</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="rounded-circle card-img mx-auto d-flex align-items-center justify-content-center mt-3"><i class="fas fa-ruler-combined"></i></div>
+                        <div class="card-body border-0">
+                            <h5 class="card-title text-center"> Responsive Layout </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="rounded-circle card-img mx-auto d-flex align-items-center justify-content-center mt-3"><i class="fa fa-layer-group"></i></div>
+                        <div class="card-body border-0">
+                            <h5 class="card-title text-center"> New Website Design and Development </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="rounded-circle card-img mx-auto d-flex align-items-center justify-content-center mt-3"><i class="fa fa-digital-tachograph"></i></div>
+                        <div class="card-body border-0">
+                            <h5 class="card-title text-center"> Dynamic Website </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="rounded-circle card-img mx-auto d-flex align-items-center justify-content-center mt-3"><i class="fab fa-wordpress"></i></div>
+                        <div class="card-body border-0">
+                            <h5 class="card-title text-center"> Wordpress Website </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="rounded-circle card-img mx-auto d-flex align-items-center justify-content-center mt-3"><i class="fa fa-calculator"></i></div>
+                        <div class="card-body border-0">
+                            <h5 class="card-title text-center"> Web Applications</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="rounded-circle card-img mx-auto d-flex align-items-center justify-content-center mt-3"><i class="far fa-newspaper"></i></div>
+                        <div class="card-body border-0">
+                            <h5 class="card-title text-center"> Renew Website Design</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="rounded-circle card-img mx-auto d-flex align-items-center justify-content-center mt-3"><i class="fas fa-bug"></i></div>
+                        <div class="card-body border-0">
+                            <h5 class="card-title text-center"> Bug Fixing</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="rounded-circle card-img mx-auto d-flex align-items-center justify-content-center mt-3"><i class="fas fa-mail-bulk"></i></div>
+                        <div class="card-body border-0">
+                            <h5 class="card-title text-center"> Email Design & Development</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- <div class="row">
             <div class="cardd col" data-aos="fade-up">
                 <p> PSD to HTML5 Conversion </p>
             </div>
             <div class="cardd col" data-aos="fade-up">
-                <p> Responsive Layout </p>
+                <p>  </p>
             </div>
             <div class="cardd col" data-aos="fade-up">
-                <p> New Website Design and Development </p>
+                <p>  </p>
             </div>
             <div class="cardd col" data-aos="fade-up">
-                <p> Dynamic Website </p>
+                <p>  </p>
             </div>
             <div class="cardd col" data-aos="fade-up">
-                <p> Wordpress Website </p>
+                <p>  </p>
             </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Web Applications </p>
+        </div> -->
+        </div>
+    </section>
+    <section class="py-5 technology">
+        <div class="container">
+
+
+            <h3 class="ttl text-white"> Technologies We Use</h3>
+            <p class="subTtl text-white"> We use latest technologies in the market. </p>
+            <div class="row">
+                <div class="cardd col">
+                    <p> HTML5 </p>
+                </div>
+                <div class="cardd col">
+                    <p> CSS3 </p>
+                </div>
+                <div class="cardd col">
+                    <p> JavaScript / ES6 </p>
+                </div>
             </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Renew Website Design </p>
+            <div class="row">
+                <div class="cardd col">
+                    <p> jQuery </p>
+                </div>
+                <div class="cardd col">
+                    <p> Angular </p>
+                </div>
+                <div class="cardd col">
+                    <p> React </p>
+                </div>
             </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Bug Fixing </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Email Design & Development </p>
+            <div class="row">
+                <div class="cardd col">
+                    <p> PHP </p>
+                </div>
+                <div class="cardd col">
+                    <p> Node </p>
+                </div>
+                <div class="cardd col">
+                    <p> Mongo DB </p>
+                </div>
+                <div class="cardd col">
+                    <p> MySQL DB </p>
+                </div>
             </div>
         </div>
     </section>
-    <div class="b-example-divider"></div>
     <section class="container py-5">
-        <h3 class="ttl text-primary"> Technologies We Use</h3>
-        <p class="subTtl"> We use latest technologies in the market. </p>
-        <div class="row">
-            <div class="cardd col" data-aos="fade-up">
-                <p> HTML5 </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> CSS3 </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> JavaScript / ES6 </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> jQuery </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Angular </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> React </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> PHP </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Node </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Mongo DB </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> MySQL DB </p>
-            </div>
-        </div>
-    </section>
-    <div class="b-example-divider"></div>
-    <!-- <section class="container py-5">
-        <h3 class="ttl text-primary"> Who we are? </h3>
-        <p class="subTtl"> Sub-Title </p>
-        <div class="row">
-            <p class="lead text-center"> inWebService is a web development Solution provider. Established in 2013 serving domestic and offshore clients in various technical aspects. Our vision is to give technical support to our client's business. To achieve our vision, our team strives to deliver innovative, reliable and cost effective solutions and services. We have the ability to discover, design, develop and deliver both inative and Cross-platform mobile applications for all the platforms in trend. inWebService deals with all kinds of website services. An ideal workflow process is being followed by us. We get encouragement from our clients for our fair and innovative work. Also, we keep updating the methods and techniques of our working. inWebService are here to serve the best web development services to our clients.
-            </p>
-        </div>
-    </section> -->
-    <!-- <div class="b-example-divider"></div> -->
-    <section class="container py-5">
-        <h3 class="ttl text-primary"> Why Choose Us </h3>
+        <h3 class="ttl text-primary"> Why To Choose Us </h3>
         <!-- <p class="subTtl"> Sub-Title </p> -->
         <div class="row">
             <p class="lead text-center"> inWebService is a ideal website development service in industry. Follwoing is the resson to choose us first. </p>
-            <div class="row py-3">                
+            <div class="row py-3">
                 <div class="col-md-6 mb-3">
                     <div class="card">
                         <div class="card-body">
@@ -165,8 +225,9 @@
         </div>
     </section>
     <div class="b-example-divider"></div>
-    <section class="container my-5">
-        <h3 class="ttl text-primary"> Strategy we use to be done. </h3>
+    <section class="strategy py-5">
+        <div class="container"> 
+        <h3 class="ttl"> Strategy we use to be done. </h3>
         <p class="subTtl"> To give you a latest and full functioning tool we use the follwing stategies. </p>
         <div class="row py-3">
             <div class="col-md-6 mb-3">
@@ -218,76 +279,97 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
-    <div class="b-example-divider"></div>
     <section class="container py-5">
         <h3 class="ttl text-primary"> Let's Get Started Today </h3>
         <p class="subTtl"> Simply Contact Us To Know More </p>
         <div class="row pt-3">
-            <div class="text-center"><button class="btn btn-primary px-5" data-bs-toggle="modal" data-bs-target="#modelform"> Get Quote </button></div>            
+            <div class="text-center"><button class="btn btn-primary px-5" data-bs-toggle="modal" data-bs-target="#modelform"> Get Quote </button></div>
         </div>
     </section>
-    <div class="b-example-divider"></div>
-    <section class="container py-5">
-        <h3 class="ttl text-primary"> Features to add your website </h3>
-        <p class="subTtl"> Simply Contact Us To Know More </p>
-        <div class="row pt-3">
-            <div class="cardd col" data-aos="fade-up">
-                <p> Desktop/ Mobile Responsive </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Official Emails </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Logo + Favicon </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Content & Graphics </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Long Term Support </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Seo </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Products Catalogue </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Contact Form </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Social Links </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Google Business Listing </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Chat Bot </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Admin Panel </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Dynamic Layout </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Payment Gateway (Ecommerce) </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Checkout Page (Ecommerce) </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Order Tracking ( Ecommerce) </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Blog </p>
-            </div>
-            <div class="cardd col" data-aos="fade-up">
-                <p> Much More... </p>
+    <section class="features py-5">
+        <div class="container">
+            <h3 class="ttl text-primary"> Features to add your website</h3>
+            <p class="subTtl"> Simply Contact Us To Know More </p>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="rounded-circle card-img mx-auto d-flex align-items-center justify-content-center mt-3"><i class="fas fa-laptop-code"></i></div>
+                        <div class="card-body border-0">
+                            <h5 class="card-title text-center"> Desktop/ Mobile Responsive</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="rounded-circle card-img mx-auto d-flex align-items-center justify-content-center mt-3"><i class="fas fa-ruler-combined"></i></div>
+                        <div class="card-body border-0">
+                            <h5 class="card-title text-center"> Logo + Favicon </h5>
+                        </div>
+                    </div>                            
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="rounded-circle card-img mx-auto d-flex align-items-center justify-content-center mt-3"><i class="fa fa-layer-group"></i></div>
+                        <div class="card-body border-0">
+                            <h5 class="card-title text-center"> Content & Graphics </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="rounded-circle card-img mx-auto d-flex align-items-center justify-content-center mt-3"><i class="fa fa-digital-tachograph"></i></div>
+                        <div class="card-body border-0">
+                            <h5 class="card-title text-center"> Long Term Support </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="rounded-circle card-img mx-auto d-flex align-items-center justify-content-center mt-3"><i class="fab fa-google"></i></div>
+                        <div class="card-body border-0">
+                            <h5 class="card-title text-center"> SEO </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="rounded-circle card-img mx-auto d-flex align-items-center justify-content-center mt-3"><i class="fa fa-calculator"></i></div>
+                        <div class="card-body border-0">
+                            <h5 class="card-title text-center"> Contact Form </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="rounded-circle card-img mx-auto d-flex align-items-center justify-content-center mt-3"><i class="far fa-newspaper"></i></div>
+                        <div class="card-body border-0">
+                            <h5 class="card-title text-center"> Google Business Listing </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="rounded-circle card-img mx-auto d-flex align-items-center justify-content-center mt-3"><i class="fab fa-wordpress"></i></div>
+                        <div class="card-body border-0">
+                            <h5 class="card-title text-center"> Payment Gateway (Ecommerce) </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <div class="rounded-circle card-img mx-auto d-flex align-items-center justify-content-center mt-3"><i class="fab fa-wordpress"></i></div>
+                        <div class="card-body border-0">
+                            <h5 class="card-title text-center"> Order Tracking ( Ecommerce) </h5>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
+
     <?php include './common/footer.php' ?>
     <?php include './model-form.php' ?>
 
