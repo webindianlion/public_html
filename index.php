@@ -38,7 +38,7 @@
     </section>
 
     <!-- <div class="seprator"></div> -->
-    <div class="b-example-divider"></div>
+    <!-- <div class="b-example-divider"></div> -->
 
     <section class="expertise py-5">
         <div class="container">
