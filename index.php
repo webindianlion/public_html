@@ -224,7 +224,7 @@
         <h3 class="ttl text-primary"> Let's Get Started Today </h3>
         <p class="subTtl"> Simply Contact Us To Know More </p>
         <div class="row pt-3">
-            <div class="text-center"><button class="btn btn-primary px-5"> Get Quote </button></div>
+            <div class="text-center"><button class="btn btn-primary px-5" data-bs-toggle="modal" data-bs-target="#modelform"> Get Quote </button></div>            
         </div>
     </section>
     <div class="b-example-divider"></div>
@@ -289,6 +289,7 @@
         </div>
     </section>
     <?php include './common/footer.php' ?>
+    <?php include './model-form.php' ?>
 
 </body>
 

@@ -29,17 +29,17 @@
 
 <?php
 
-	define('SECRET_KEY', '6LdmOvoZAAAAACyFgyf1gDwBmbaoz9wRSCCkqTwo');
+	// define('SECRET_KEY', '6LdmOvoZAAAAACyFgyf1gDwBmbaoz9wRSCCkqTwo');
 
 	if(isset($_POST['submit'])){
 
-		function getCaptcha($SecretKey){
-			$Response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".SECRET_KEY."&response={$SecretKey}");
-			$Return = json_decode($Response);
-			return $Return;
-		}
+		// function getCaptcha($SecretKey){
+		// 	$Response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".SECRET_KEY."&response={$SecretKey}");
+		// 	$Return = json_decode($Response);
+		// 	return $Return;
+		// }
 
-		$Return = getCaptcha($_POST['g-recaptcha-response']);
+		// $Return = getCaptcha($_POST['g-recaptcha-response']);
 		//var_dump($Return);
 		
 		
@@ -55,17 +55,10 @@
 		$message="Name :".$name."\n"."Mobile :".$mobile."\n\n"."Query :".$msg;
 		$headers="Inwebservice Query From: ".$email;
 
-
-		if($Return->success == true && $Return->score > 0.5){
-			// echo "<h1>Succes!</h1>";
-			mail($to, $subject, $message, $headers);
-			echo "<h1>Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h1>";
+		mail($to, $subject, $message, $headers);
+			// echo "<h2>Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h2>";		
 			header('Refresh: 5; URL=https://inwebservice.com/');		
-
-		}else{
-			echo "You are a Robot!!";
-		}
-
-		
 	}
 ?>
+
+
