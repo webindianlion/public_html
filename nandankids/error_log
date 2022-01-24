@@ -1,6 +1,0 @@
-[03-Mar-2021 13:44:21 UTC] PHP Notice:  Undefined index: name in /home/jktppypj/public_html/nandankids/mail_server.php on line 15
-[03-Mar-2021 13:44:21 UTC] PHP Notice:  Undefined index: email in /home/jktppypj/public_html/nandankids/mail_server.php on line 16
-[03-Mar-2021 13:44:21 UTC] PHP Notice:  Undefined index: mobile in /home/jktppypj/public_html/nandankids/mail_server.php on line 17
-[03-Mar-2021 13:46:29 UTC] PHP Notice:  Undefined index: name in /home/jktppypj/public_html/nandankids/mail_server.php on line 15
-[03-Mar-2021 13:46:29 UTC] PHP Notice:  Undefined index: email in /home/jktppypj/public_html/nandankids/mail_server.php on line 16
-[03-Mar-2021 13:46:29 UTC] PHP Notice:  Undefined index: mobile in /home/jktppypj/public_html/nandankids/mail_server.php on line 17
