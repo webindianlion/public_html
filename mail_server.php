@@ -57,7 +57,10 @@
 
 		mail($to, $subject, $message, $headers);
 			// echo "<h2>Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h2>";		
-			header('Refresh: 5; URL=https://inwebservice.com/');		
+			header('Refresh: 5; URL=https://inwebservice.com/');	
+			
+			error_reporting(E_ERROR | E_PARSE);
+
 	}
 ?>
 
