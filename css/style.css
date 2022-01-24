@@ -179,7 +179,7 @@
 }
 .navbar-collapse.collapse.show {
   background-color: #141526;
-  margin-top: 10px;
+  margin-top: 20px;
   max-height: 80vh;
     overflow-y: auto;
 }
@@ -425,6 +425,12 @@
   background-size: cover;
   height: 500px;
 }
+.services-banner {background-image: url(../images/services-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  height: 500px;
+}
 .topMenu {
   background-color: #1f8dd6ed;
   box-shadow: rgb(0 0 0 / 10%) 0px 1px 4px;
@@ -443,6 +449,14 @@
 }
 .lightWhite { background: #f8f7fd;}
 
+.services-img{
+  width: 200px;
+  height: 200px;
+  background: antiquewhite;
+  font-size: 100px;
+  color: #b1b1b1;
+  border-radius: 50%!important;
+}
 /***********************************************************
  ** MAIN HEADER **
  **********************************************************/

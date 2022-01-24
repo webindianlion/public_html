@@ -2,7 +2,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title text-primary" id="exampleModalLabel">Customer Care (+91 9810272223)</h5>
+                <h5 class="w-100 modal-title text-primary text-center" id="exampleModalLabel">Customer Care <br> +91 9810272223 </h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">

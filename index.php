@@ -58,7 +58,7 @@
                     <div class="card shadow-sm">
                         <div class="rounded-circle card-img mx-auto d-flex align-items-center justify-content-center mt-3"><i class="fas fa-ruler-combined"></i></div>
                         <div class="card-body border-0">
-                            <h5 class="card-title text-center"> Responsive Layout </h5>
+                            <h5 class="card-title text-center"> Responsive Website Layout </h5>
                         </div>
                     </div>
                 </div>

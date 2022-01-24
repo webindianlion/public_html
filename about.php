@@ -39,22 +39,7 @@
         </div>
       </section>
       <div class="b-example-divider"></div>
-<!----------------------------------------------------------------->
-<section class="py-5 py-md-6 py-lg-7 about-us lightWhite">
-        <div class="container py-3 py-lg-4">
-          <div class="row align-items-center">
-            <div class="col-md-6 mb-5 text-center text-md-start">
-              <h2 class="h1 mb-4 text-primary">Our Mission</h2>
-              <p class="text-muted mb-5">We have Goodwill on delivering innovative and cost-effective solutions to its customers. so We are proud of what we do. Our mission is to be the first choice for web development solutions. Our main focus on delivering innovative and cost effective solutions to our customers. Our exclusive services are based on our aptitude, resource, as well as the ability to discover, design, develop, and deliver both native and cross-platform mobile and web applications for all the platforms in trend.</p>
-            </div>
-            <div class="col-md-6 mb-md-0">
-              <div class="mx-auto mx-md-0"><img class="d-block w-100" src="./images/about-mobile.jpg" alt="Mobile screens"></div>
-            </div>
-          </div>
-        </div>
-    </section>     
-    <div class="b-example-divider"></div> 
-<!----------------------------------------------------------------->
+      <!----------------------------------------------------------------->
 
     <section class="py-5 py-md-6 py-lg-7 lightWhite">        
         <div class="container py-3 py-lg-4">
@@ -114,7 +99,22 @@
         </div>
         </div>        
     </section>    
-    <div class="b-example-divider"></div> 
+    <div class="b-example-divider"></div>
+<!----------------------------------------------------------------->
+<section class="py-5 py-md-6 py-lg-7 about-us lightWhite">
+        <div class="container py-3 py-lg-4">
+          <div class="row align-items-center">
+            <div class="col-md-6 mb-5 text-center text-md-start">
+              <h2 class="h1 mb-4 text-primary">Our Mission</h2>
+              <p class="text-muted mb-5">We have Goodwill on delivering innovative and cost-effective solutions to its customers. so We are proud of what we do. Our mission is to be the first choice for web development solutions. Our main focus on delivering innovative and cost effective solutions to our customers. Our exclusive services are based on our aptitude, resource, as well as the ability to discover, design, develop, and deliver both native and cross-platform mobile and web applications for all the platforms in trend.</p>
+            </div>
+            <div class="col-md-6 mb-md-0">
+              <div class="mx-auto mx-md-0"><img class="d-block w-100" src="./images/about-mobile.jpg" alt="Mobile screens"></div>
+            </div>
+          </div>
+        </div>
+    </section>     
+    <div class="b-example-divider"></div>  
         <!----------------------------------------------------------------->
         <section class="py-5 py-md-6 py-lg-7 lightWhite whyWebsite">
         <div class="container py-3 py-lg-4">

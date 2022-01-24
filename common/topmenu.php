@@ -14,7 +14,7 @@
             </li> -->
             <li class="nav-item pt-2"> <a class="nav-link"  href="index"> Home </a> </li> 
             <li class="nav-item pt-2"> <a class="nav-link" href="about"> About </a>  </li>
-            <li class="nav-item pt-2"> <a class="nav-link" href="#"> Service </a> </li>
+            <li class="nav-item pt-2"> <a class="nav-link" href="services"> Service </a> </li>
             <li class="nav-item pt-2"> <a class="nav-link" href="contact" > Contact </a> </li>          
           </ul>
         </div>
