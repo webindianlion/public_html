@@ -20,7 +20,7 @@
                 <img class="" src="./images/contact.jpg" alt="">
             </div>
             <div class="col-lg-6 bg-dark">
-                <form action="./mail_server.php" method="post" class="formContact">
+                <form action="./mail_server.php" method="post" class="formContact" id="formContact">
                 <h1 class="text-white">Customer Care <br>(+91 9810272223)</h1>
                     <div class="form-group mb-2">
                         <input type="text" name="name" placeholder="Name" class="form-control" required>
@@ -54,5 +54,8 @@
       });
       });
   </script> -->
+  <script>
+    jQuery('#formContact').trigger("reset");
+  </script>
 </body>
 </html>
