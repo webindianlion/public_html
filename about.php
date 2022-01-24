@@ -147,37 +147,37 @@
                 </div>
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><b>Which is the best website designing company in Delhi? </b></button>
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><b>Which is the best website designing company in Delhi? </b></button>
                     </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                         <div class="accordion-body"> InWebService is an established best website designing company in Delhi that has been delivering projects at all levels of complexity to clients across India. Our clients range from small businesses to large enterprises. We have developed a sophisticated style and a deep understanding of website requirements since our founding in 2012. </div>
                     </div>
                 </div>
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><b>Can I use my website on mobile? </b></button>
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><b>Can I use my website on mobile? </b></button>
                     </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                         <div class="accordion-body"> Absolutely! Having a mobile-friendly website is more important than ever! We work hard to ensure your website looks great on a variety of devices. </div>
                     </div>
                 </div>
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><b>What is the maintenance cost of a website? </b></button>
+                    <h2 class="accordion-header" id="headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"><b>What is the maintenance cost of a website? </b></button>
                     </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                         <div class="accordion-body"> We fully support any website we design and are always available should you encounter any problems or require new enhancements. InWebService offers website maintenance cost according to our efforts. </div>
                     </div>
                 </div>
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> <b>Is it possible to view websites during the development? </b></button>
+                    <h2 class="accordion-header" id="headingService">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"> <b>Is it possible to view websites during the development? </b></button>
                     </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingService" data-bs-parent="#accordionExample">
                         <div class="accordion-body"> yes it is possible we will provide you the testing link, In our testing link you can check your website. With every step you can check the progress and get updates by our developer team. </div>
                     </div>
                 </div>
