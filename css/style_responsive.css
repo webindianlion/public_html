@@ -1,7 +1,7 @@
 @media only screen and (max-width: 1024px) {
   .bodyContact .formContact {
     padding: 20px;
-    width: 320px;
+    /* width: 320px; */
     left: calc(50% - 160px);
     top: 80px;
   }

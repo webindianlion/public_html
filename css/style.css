@@ -25,7 +25,7 @@
 .videoText h1 {
   /* max-width: 1200px;
   margin: 0px; */
-  /* font-size: 50px; */
+  font-size: 70px;
 }
 
 .topMenu {
@@ -140,8 +140,10 @@
   position: relative;
   top: -3px;
 }
-.topMenu ul {
+.topMenu > ul {
   display: flex;
+}
+.topMenu ul {
   list-style-type: none;
   color: #fff;
   margin: 0;
@@ -156,7 +158,7 @@
   font-size: 18px;
 }
 .topMenu.fixed {
-  background-color: #1f8dd6ed;
+  background-color: #1f8dd6ed !important;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
 }
 /* .topMenu.top {
@@ -165,9 +167,19 @@
 .topMenu.fixed .navbar-collapse.collapse.show {
   background-color: #1e84ca;
 }
+.topMenu .dropdown-menu{
+  background: #16172d;
+  max-width: 96%;
+    margin-left: 2%;
+}
+.topMenu .dropdown-menu li{
+  border: 0;
+}
 .navbar-collapse.collapse.show {
   background-color: #141526;
   margin-top: 10px;
+  max-height: 80vh;
+    overflow-y: auto;
 }
 #particles-js {
   width: 100%;
@@ -175,28 +187,28 @@
 }
 
 .bodyContact .formContact {
-  width: 480px;
+  /* width: 480px; */
   margin: 0 auto;
-  -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  /* -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); */
   padding: 40px;
   border-radius: 7px;
-  border: 1px solid #1f8dd6;
-  position: absolute;
+  /* border: 1px solid #1f8dd6; */
+  /* position: absolute; */
   z-index: 3;
   top: 15%;
   left: calc(50% - 240px);
 }
 .bodyContact .formContact h1 {
-  color: #1f8dd6;
+  /* color: #1f8dd6; */
   font-size: 30px;
   margin-bottom: 40px;
 }
 .bodyContact .formContact {
-  background-color: #fff;
+  /* background-color: #000; */
 }
 
-.home .videoText {
+.home .videoText, .videoText {
   top: 0;
 }
 .home .whyWebsite .ttl, .home .expertise .ttl {
@@ -405,13 +417,32 @@
 .strategy .subTtl, .strategy .ttl {
   color: #565a9f;
 }
+.about-banner {background-image: url(../images/banner-about.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  height: 500px;
+}
+.topMenu {
+  background-color: #1f8dd6ed;
+  box-shadow: rgb(0 0 0 / 10%) 0px 1px 4px;
+}
+.home .topMenu {
+  background-color: transparent;
+  box-shadow: rgb(0 0 0 / 10%) 0px 1px 4px;
+}
+.about-us p { line-height: 1.5; }
+.btn.get-quote { color: #141526; }
+.navbar-collapse.collapse {
+  position: absolute;
+  top: 63px;
+  width: 100%;
+  left: 0;
+}
 
-
-
-
-/*****************
+/***********************************************************
  ** MAIN HEADER **
- *****************/
+ **********************************************************/
 .menu-icon {
   display: none;
   color: #fff;

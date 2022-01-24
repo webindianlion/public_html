@@ -10,8 +10,9 @@
             <canvas class="particles-js-canvas-el" width="659" height="472"></canvas>
         </div>
         <div class="videoText d-flex flex-column justify-content-center align-items-center position-absolute h-100 container-fluid">
-            <h1 class="">For Impactful And Innovative Digital Solutions!</h1>
+            <h1 class="">To get an Impactful Digital Solutions!</h1>
             <p class="pt-2">You can choose us as your technology partner.</p>
+            <p><button class="btn btn-warning px-3 fw-bold get-quote" data-bs-toggle="modal" data-bs-target="#modelform"> <i class="far fa-file-alt"></i> Get Quote </button></p>
         </div>
     </div>
 
