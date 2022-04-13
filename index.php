@@ -9,10 +9,50 @@
         <div id="particles-js">
             <canvas class="particles-js-canvas-el" width="659" height="472"></canvas>
         </div>
-        <div class="videoText d-flex flex-column justify-content-center align-items-center position-absolute h-100 container-fluid">
+        <!-- <div class="videoText d-flex flex-column justify-content-center align-items-center position-absolute h-100 container-fluid">
             <h1 class="">To get an Impactful Digital Solutions!</h1>
             <p class="pt-2">You can choose us as your digital technology partner.</p>
             <p><button class="btn btn-warning px-3 fw-bold get-quote" data-bs-toggle="modal" data-bs-target="#modelform"> <i class="far fa-file-alt"></i> Get Quote </button></p>
+        </div> -->
+        <div class="videoText d-flex flex-column justify-content-center align-items-center position-absolute h-100 container-fluid">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h1 class=""> <span class="badge bg-primary m-1">E-Commerce Website</span> <span class="badge bg-secondary m-1">Dynamic Website</span> <span class="badge bg-secondary m-1">Static Website</span> </h1>
+                        <p class="pt-2">You can choose us as your digital technology partner.</p>
+                        <p><button class="btn btn-warning px-3 fw-bold get-quote" data-bs-toggle="modal" data-bs-target="#modelform"> <i class="far fa-file-alt"></i> Get Quote </button></p>
+                    </div>
+                    <div class="carousel-item">
+                        <h1 class=""><span class="badge bg-primary m-1">Get Premium Website Design</span><span class="badge bg-secondary m-1">@ Best Price </span> </h1>
+                        <p class="pt-2">You can choose us as your digital technology partner.</p>
+                        <p><button class="btn btn-warning px-3 fw-bold get-quote" data-bs-toggle="modal" data-bs-target="#modelform"> <i class="far fa-file-alt"></i> Get Quote </button></p>
+                    </div>
+                    <div class="carousel-item">
+                        <h1 class=""><span class="badge bg-primary m-1">Get SEO Consultation and Audit</span><span class="badge bg-secondary m-1">@ Free </span> </h1>
+                        <p class="pt-2">You can choose us as your digital technology partner.</p>
+                        <p><button class="btn btn-warning px-3 fw-bold get-quote" data-bs-toggle="modal" data-bs-target="#modelform"> <i class="far fa-file-alt"></i> Get Quote </button></p>
+                    </div>
+                    <div class="carousel-item">
+                        <h1 class=""><span class="badge bg-primary m-1">Responsive & Fast Loading Website</span><span class="badge bg-secondary m-1">No Hidden Cost </span> </h1>
+                        <p class="pt-2">You can choose us as your digital technology partner.</p>
+                        <p><button class="btn btn-warning px-3 fw-bold get-quote" data-bs-toggle="modal" data-bs-target="#modelform"> <i class="far fa-file-alt"></i> Get Quote </button></p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
     </div>
 

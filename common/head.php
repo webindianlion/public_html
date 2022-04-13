@@ -1,22 +1,3 @@
-<?php
-
-// include "meta.php";
-// Choice 2: If you want to make it little more dynamic
-// Here you don't need to define any hardcoded variable at page level as everything will be considered from the URL being requested
-// $page_index = array_keys($meta);
-// foreach($page_index as $page)
-// {
-//     if ( strpos( strtoupper($_SERVER['REQUEST_URI']), $page ) !== false)
-//     {
-//         $title = $meta[$page]['title'];
-//         $keywords = $meta[$page]['keywords'];
-//         $description = $meta[$page]['description'];
-//         break;
-//     }
-// }
-// Now you have your meta - use it the way you want
-// echo $title;
-?>
 
 <head>
     

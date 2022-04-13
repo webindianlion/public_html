@@ -3,19 +3,49 @@
 <?php include './common/head.php' ?>
 <body class="home">
 
-    <?php // include './common/topmenu.php' ?>
-
     <div class="containerr videoContainer">
         <div id="particles-js">
             <canvas class="particles-js-canvas-el" width="659" height="472"></canvas>
         </div>
         <div class="videoText d-flex flex-column justify-content-center align-items-center position-absolute h-100 container-fluid">
-            <p class="d-flex flex-wrap justify-content-center mb-4 landing-page1-contact fs-5"> 
+        <h2 class="logo mb-4" style="color: #141526;background: #fff;padding: 5px;position: absolute;font-size: 24px;margin-left: 5px;top: 10px;border-radius: 2px;"> <a href="/"> <img src="./images/inwebservice-logo.png" alt="" style="width: 150px;"> </a> </h2>
+        <p class="d-flex flex-wrap justify-content-center landing-page1-contact fs-5"> 
                 <span class="me-5"><i class="fa fa-mobile me-3 text-warning"></i>+91 9810272223</span>
                 <span class=""><i class="fa fa-envelope  me-3 text-warning"></i>inweballservices@gmail.com</span> </p>
-            <h1 class="">Get a Website to your Business</h1>
-            <p class="pt-2">Choose us as your Website Developer to Create a Fast and Beautiful Website.</p>
-            <p><button class="btn btn-warning px-3 fw-bold get-quote border border-light border-2" data-bs-toggle="modal" data-bs-target="#modelform"> <i class="far fa-file-alt"></i> Get Quote </button></p>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h1 class=""> <span class="badge bg-primary m-1">E-Commerce Website</span> <span class="badge bg-secondary m-1">Responsive Website</span> </h1>
+                        <p class="pt-2">Our all services are premium and Best in market</p>                        
+                    </div>
+                    <div class="carousel-item">
+                        <h1 class=""><span class="badge bg-primary m-1">Premium Website Design</span><span class="badge bg-secondary m-1">@ Best Price </span> </h1>
+                        <p class="pt-2">Our all services are premium and Best in market</p>                        
+                    </div>
+                    <div class="carousel-item">
+                        <h1 class=""><span class="badge bg-primary m-1">SEO Consultation and Audit</span><span class="badge bg-secondary m-1">@ Free </span> </h1>
+                        <p class="pt-2">Our all services are premium and Best in market</p>                        
+                    </div>
+                    <div class="carousel-item">
+                        <h1 class=""><span class="badge bg-primary m-1">Fast Loading Website</span><span class="badge bg-secondary m-1">No Hidden Cost </span> </h1>
+                        <p class="pt-2">Our all services are premium and Best in market</p>                        
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
     </div>
     <section class="whyWebsite py-5">
@@ -143,62 +173,7 @@
             </div>
         </div>
     </section>
-    <!-- <section class="strategy py-5">
-        <div class="container"> 
-        <h3 class="ttl"> Strategy we use to be done. </h3>
-        <p class="subTtl"> To give you a latest and full functioning tool we use the follwing stategies. </p>
-        <div class="row py-3">
-            <div class="col-md-6 mb-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="text-primary"> Requirment </h4>
-                        <p> We will get your requirment first. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 mb-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="text-primary"> Research </h4>
-                        <p> We will give full research to your requirment to find out a best solution. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 mb-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="text-primary"> Design </h4>
-                        <p> We will desing your solution to best user experience. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 mb-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="text-primary"> Development </h4>
-                        <p> We will develop your design with latest technology </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 mb-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="text-primary"> Testing </h4>
-                        <p> We will test your website before to go live. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 mb-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="text-primary"> Deployment </h4>
-                        <p> At last we will live your website to your customers. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section> -->
+
     <section class="container py-5">
         <h3 class="ttl text-primary"> Let's Get Started Today </h3>
         <p class="subTtl"> Simply Contact Us To Know More </p>
@@ -248,10 +223,7 @@
             </div>
         </div>
     </section>
- 
-    <!-- <div class="b-example-divider"></div> -->
-    
-    
+   
     <section class="features py-5">
         <div class="container">
             <h3 class="ttl text-primary"> Features to add your website</h3>

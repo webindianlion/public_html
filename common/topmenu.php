@@ -13,8 +13,9 @@
               <a class="nav-link active border-end" ><i class="fas fa-mobile-alt"></i> +91 9810272223 </a>
             </li> -->
             <li class="nav-item pt-2"> <a class="nav-link"  href="index"> Home </a> </li> 
-            <li class="nav-item pt-2"> <a class="nav-link" href="about"> About </a>  </li>
-            <li class="nav-item pt-2"> <a class="nav-link" href="services"> Service </a> </li>
+            <li class="nav-item pt-2"> <a class="nav-link" href="website-development-faridabad"> About </a>  </li>
+            <li class="nav-item pt-2"> <a class="nav-link" href="website-development-services"> Service </a> </li>
+            <li class="nav-item pt-2"> <a class="nav-link" href="website-development-pricing"> Pricing </a> </li>
             <li class="nav-item pt-2"> <a class="nav-link" href="contact" > Contact </a> </li>          
           </ul>
         </div>
