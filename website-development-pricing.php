@@ -3,7 +3,7 @@
 <?php include './common/head.php' ?>
 <body class="about">
     <?php include './common/topmenu.php' ?>
-    <div class="container-fluid services-banner"> <div class="container"> </div> </div>
+    <div class="container-fluid pricing-banner"> <div class="container"> </div> </div>
     <!-- <div class="b-example-divider"></div> -->
     <!----------------------------------------------------------------->
   
