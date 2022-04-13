@@ -21,6 +21,25 @@
   </div>
 </div>
   
+  
+  <!-- Cookie  popup  -->
+<div id="cookieNotice" class="light display-right" style="display: none;">
+  <div id="closeIcon" style="display: none;">
+  </div>
+  <div class="title-wrap">
+    <h4>Cookie Consent</h4>
+  </div>
+  <div class="content-wrap">
+    <div class="msg-wrap">
+      <p>This website makes use of cookies to enhance browsing experience and provide additional functionality</p>
+      <div class="btn-wrap">
+        <button class="btn-primary" onclick="acceptCookieConsent();">Accept</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
   <!--Start of Tawk.to Script-->
 <!-- <script type="text/javascript">
   var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();

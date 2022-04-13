@@ -179,7 +179,7 @@
 }
 .navbar-collapse.collapse.show {
   background-color: #141526;
-  margin-top: 20px;
+  margin-top: 10px;
   max-height: 80vh;
     overflow-y: auto;
 }
