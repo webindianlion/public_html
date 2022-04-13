@@ -91,6 +91,8 @@
                             <div><h6 class="mb-0"> Bootstrap CSS Design </h6><p class="mb-0 opacity-75"> Yes </p></div></li>
                         <li class="list-group-item list-group-item-action py-1">
                             <div><h6 class="mb-0"> Blog Configuration </h6><p class="mb-0 opacity-75"> No </p></div></li>
+                        <li class="list-group-item list-group-item-action py-1">
+                            <div><h6 class="mb-0"> Full Support </h6><p class="mb-0 opacity-75"> 3 Months </p></div></li>
                     </ul>
                     <a href="contact" class="btn  btn-lg btn-primary mt-3">Order Now</a>
                 </div>
@@ -175,6 +177,8 @@
                             <div><h6 class="mb-0"> Bootstrap CSS Design </h6><p class="mb-0 opacity-75"> Yes </p></div></li>
                         <li class="list-group-item list-group-item-action py-1">
                             <div><h6 class="mb-0"> Blog Configuration </h6><p class="mb-0 opacity-75"> Yes </p></div></li>
+                        <li class="list-group-item list-group-item-action py-1">
+                            <div><h6 class="mb-0"> Full Support </h6><p class="mb-0 opacity-75"> 6 Months </p></div></li>
                     </ul>
                     <a href="contact" class="btn  btn-lg btn-primary mt-3">Order Now</a>
                 </div>
@@ -259,6 +263,8 @@
                             <div><h6 class="mb-0"> Bootstrap CSS Design </h6><p class="mb-0 opacity-75"> Yes </p></div></li>
                         <li class="list-group-item list-group-item-action py-1">
                             <div><h6 class="mb-0"> Blog Configuration </h6><p class="mb-0 opacity-75"> Yes </p></div></li>
+                        <li class="list-group-item list-group-item-action py-1">
+                            <div><h6 class="mb-0"> Full Support </h6><p class="mb-0 opacity-75"> 12 Months </p></div></li>
                     </ul>
                     <a href="contact" class="btn  btn-lg btn-primary mt-3">Order Now</a>
                 </div>
