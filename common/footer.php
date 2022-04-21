@@ -17,7 +17,7 @@
     <li class="">  Email - info@inwebservice, webindianlion@gmail.com </li>    
   </ul>
   
-  <p class="copywrite"> &copy; InWebService. </p>
+  <p class="copywrite"> &copy; InWebService. <br> <a href="sitemap.php">Sitemap</a> </p>
   </div>
 </div>
   
