@@ -24,7 +24,9 @@
             <a href="contact" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
                 <i class="far fa-file-alt text-primary"></i> <h6 class="mb-0">Contact</h6>  </a>
             <a href="offers/free-seo" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true"> 
-                <i class="far fa-file-alt text-primary"></i> <h6 class="mb-0"> Offers -> Free SEO Trial Pack </h6>  </a> 
+                <i class="far fa-file-alt text-primary"></i> <h6 class="mb-0"> Offers -> Free SEO Trial Pack </h6>  </a>
+            <a href="website-design" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true"> 
+                <i class="far fa-file-alt text-primary"></i> <h6 class="mb-0"> Google Ads landing page </h6>  </a>
             </div>
           </div>
         </div>
@@ -38,7 +40,7 @@
 </html>
 
 
-<a href="" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true"> 
-                <i class="far fa-file-alt text-primary"></i> <h6 class="mb-0"></h6>  </a>
+<!-- <a href="" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true"> 
+                <i class="far fa-file-alt text-primary"></i> <h6 class="mb-0"></h6>  </a> -->
 
 
