@@ -1,0 +1,114 @@
+<html>
+
+<head>
+  <title>jQuery Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+ <style> .trash{cursor: pointer;}</style>
+</head>
+
+<body>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" >Edit User <span class="d-none" id="id"></span></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form  id="m_userform">        
+          <input type="text" minlength="2" maxlength="10" required class="form-control mb-3" id="m_first_name" placeholder="First Name">
+          
+          <input type="text" minlength="2" maxlength="10" required class="form-control mb-3" id="m_last_name" placeholder="Last Name">
+          <!-- <input type="text" class="form-control mb-3" id="m_gender" placeholder="Gender"> -->
+          <div class="mb-3 text-start">
+            <p class="form-label text-start"><b>Gender -</b> </p>
+            <input type="radio" id="m_gender" name="gender" value="m" checked> <label for="m">Male</label><br>
+            <input type="radio" id="m_gender" name="gender" value="f"> <label for="f">Female</label><br>
+            <input type="radio" id="m_gender" name="gender" value="o"> <label for="o">Other</label><br>
+          </div>
+          <input type="email" minlength="2" maxlength="10" required class="form-control mb-3" id="m_email" placeholder="name@example.com">        
+          <input type="text" minlength="10" maxlength="10" required class="form-control mb-3" id="m_number" placeholder="Mobile">          
+          <input type="submit" value="Update" class="form-control btn btn-primary mb-3 updateuser">
+          <!-- <button class="updateuser">updateuser</button> -->
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <main>
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1 class="my-5">This is an example of <br> <span class="text-primary">jQuery $.ajax</span> with <span class="text-primary">Node js api</span></h1>
+        
+        <form action="https://inwebservice.com/api/users" method="post" id="userform"> 
+          
+          <div class="mb-3">
+            <p class="form-label text-start"><b>First Name -</b> Max-length(10), alphabet characters only</p>
+            <input type="text" minlength="2" maxlength="10" required class="form-control mb-3" name="first_name" id="first_name" placeholder="First Name">
+            <p class="text-danger fn-warn">Please use Alphabets only, for First Name field & use atleast 1 character.</p>
+          </div>  
+
+          <div class="mb-3">
+            <p class="form-label text-start"><b>Last Name -</b> Max-length(10), alphabet characters only</p>
+            <input type="text"  minlength="2" maxlength="10" required class="form-control mb-3" name="last_name" id="last_name" placeholder="Last Name">
+            <p class="text-danger ln-warn">Please use Alphabets only, for Last Name field & use atleast 1 character.</p>
+          </div>
+        
+          <div class="mb-3 text-start">
+            <p class="form-label text-start"><b>Gender -</b> </p>
+            <input type="radio" id="gender" name="gender" value="m" checked> <label for="m">Male</label><br>
+            <input type="radio" id="gender" name="gender" value="f"> <label for="f">Female</label><br>
+            <input type="radio" id="gender" name="gender" value="o"> <label for="o">Other</label><br>
+          </div>
+          
+          <div class="mb-3">
+            <p class="form-label text-start"><b>Email -</b> Max-length(30), Duplicate not allowed</p>
+            <input type="email" maxlength="30" required class="form-control mb-3" name="email" id="email" placeholder="name@example.com">
+          </div>
+
+          <div class="mb-3">
+            <p class="form-label text-start"><b>Password -</b> Max-length(10)</p>
+            <input type="password" maxlength="10" required class="form-control mb-3" name="password" id="password" placeholder="Password">
+          </div>
+                  
+          <div class="mb-3">
+            <p class="form-label text-start"><b>Mobile -</b> Max-length(10), Numeric characters only</p>
+            <input type="text" minlength="10" maxlength="10" required class="form-control mb-3" name="number" id="number" placeholder="Mobile">
+          </div>
+          
+          <input type="submit" value="Submit" class="form-control mb-3  btn btn-primary postdata">
+        </form>
+
+        <!-- <input type="submit" value="Put Request" class="form-control mb-3 deletedata" > -->
+
+        <table class="table table-striped" id="records_table"> 
+          <thead>
+            <tr>
+              <th scope="col" class="d-none">ID</th>
+              <th scope="col">First Name</th>
+              <th scope="col">Last Name</th>
+              <th scope="col">Email</th>
+              <th scope="col">Gender</th>
+              <th scope="col">Mobile</th>
+              <th scope="col">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+
+        </table>
+      </div>
+
+    </section>
+    </div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+  <script src="./js/custom_jqueryform.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<html>
+
+<head>
+  <title>jQuery Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+ <style> .trash{cursor: pointer;}</style>
+</head>
+
+<body>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" >Edit User ID <span class="d-none" id="id"></span></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form  id="m_userform">        
+          <input type="text" class="form-control mb-3" id="m_first_name" placeholder="First Name">
+          <input type="text" class="form-control mb-3" id="m_last_name" placeholder="Last Name">
+          <input type="text" class="form-control mb-3" id="m_gender" placeholder="Gender">
+          <input type="email" class="form-control mb-3" id="m_email" placeholder="name@example.com">        
+          <input type="text" class="form-control mb-3" id="m_number" placeholder="Mobile">            
+          <input type="submit" value="Submit" class="form-control mb-3 updateuser">
+          <!-- <button class="updateuser">updateuser</button> -->
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <main>
+    <section class="jumbotron text-center">
+      <div class="container">
+<h1>This is an example of <br> <span class="text-primary">JS fetch API</span> with <span class="text-primary">Node js api</span></h1>
+        <form id="userform">        
+          <input type="text" class="form-control mb-3" name="first_name" id="first_name" placeholder="First Name">
+          <input type="text" class="form-control mb-3" name="last_name" id="last_name" placeholder="Last Name">
+          <input type="text" class="form-control mb-3" name="gender" id="gender" placeholder="Gender">
+          <input type="email" class="form-control mb-3" name="email" id="email" placeholder="name@example.com">        
+          <input type="password" class="form-control mb-3" name="password" id="password" placeholder="Password">
+          <input type="text" class="form-control mb-3" name="number" id="number" placeholder="Mobile">            
+          <input type="submit" value="Submit" class="form-control mb-3 postdata">
+        </form>
+
+
+        <table class="table table-striped" id="records_table"> 
+          <thead>
+            <tr>
+              <th scope="col" class="d-none">ID</th>
+              <th scope="col">First Name</th>
+              <th scope="col">Last Name</th>
+              <th scope="col">Email</th>
+              <th scope="col">Gender</th>
+              <th scope="col">Mobile</th>
+              <th scope="col">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+        </table>
+      </div>
+
+    </section>
+    </div>
+  </main>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+  <script src="./js/custom_fetchform.js"></script>
+
+  <script>
+   
+   
+  </script>
+
+</body>
+</html>

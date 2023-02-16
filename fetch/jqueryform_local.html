@@ -1,0 +1,164 @@
+<html>
+<head>
+  <title>jQuery Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+  <link rel="stylesheet" href="./css/table-sortable.css" />
+  <link rel="stylesheet" href="./css/custom.css" />
+ 
+</head>
+
+<body>
+
+  <main>
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1 class="my-5"><span class="text-primary">LOCAL-SERVER</span></h1>
+
+        <form method="POST" id="allforminput" action="http://localhost:3000/allformdata">
+        <div class="row">
+          
+          <div class="col-6">
+            <input class="w-100 my-1 btn btn-primary" id="button" type="button" value="BUTTON">
+            <input class="w-25 my-1 btn btn-primary" id="image" height="50" name="image" type="image" src="https://raw.githubusercontent.com/mdn/learning-area/master/html/forms/image-type-example/login.png">
+          </div>
+          <div class="col-6">
+            <input class="w-100 my-1 btn btn-primary" id="reset"  name="reset" type="reset">
+            <input class="w-100 my-1 btn btn-primary" id="submit"  name="submit" type="submit">
+          </div>
+          <div class="col-6">
+            <input class="w-100 my-1 form-control" id="text"  name="text" type="text" placeholder="Text Input">
+            <input class="w-100 my-1 form-control" id="email"  name="email" type="email" placeholder="email@domain.com">
+            <input class="w-100 my-1 form-control" id="password"  name="password" type="password"  placeholder="Password">
+            <input class="w-100 my-1 form-control" id="tel"  name="tel" type="tel" placeholder="Tel Input">
+            <input class="w-100 my-1 form-control" id="number"  name="number" type="number" placeholder="Number Input">
+            <select class="form-select form-select-lg mb-3" id="select" name="select">
+              <option selected>Open this select menu</option>
+              <option value="One">One</option>
+              <option value="Two">Two</option>
+            </select>
+          </div>
+          <div class="col-6">
+            <input class="w-100 my-1 form-control" id="url"  name="url" type="url" placeholder="URL Input">
+            <input class="w-100 my-1 form-control" id="search"  name="search" type="search" placeholder="Search Input">
+            <input class="w-100 my-1 form-range" id="number_range"  name="number_range" type="range">
+            <input class="w-100 my-1" id="color" name="color"  type="color">
+            <input class="w-100 my-1 form-control" id="file"  name="file" type="file" accept="image/png, image/gif, image/jpeg">
+            <input class="w-100 my-1 form-control" id="hidden"  name="hidden" type="hidden" value="Hidden Input Value">
+          </div>
+          <div class="col-6">
+            <input class="my-1 form-check-input" id="checkbox1" name="checkbox" type="checkbox" value="checkbox1">
+            <label class="form-check-label me-5" for="checkbox1"> checkbox1 </label>
+            <input class="my-1 form-check-input" id="checkbox2" name="checkbox" type="checkbox" value="checkbox2">
+            <label class="form-check-label" for="checkbox2"> checkbox2 </label>
+          </div>
+          <div class="col-6">
+            <input class="my-1 form-check-input" id="radio1" name="radio" type="radio" value="radio1" checked="checked">
+            <label class="form-check-label me-5" for="radio1"> radio1 </label>
+            <input class="my-1 form-check-input" id="radio2" name="radio" type="radio" value="radio2">
+            <label class="form-check-label me-5" for="radio2"> radio2 </label>
+          </div>
+          <div class="col-6">
+            <input class="w-100 my-1 form-control" id="time"  name="time" type="time">
+            <input class="w-100 my-1 form-control" id="date" name="date" type="date">
+            <input class="w-100 my-1 form-control" id="week"  name="week" type="week">
+          </div>
+          <div class="col-6">
+            <input class="w-100 my-1 form-control" id="month"  name="month" type="month">
+            <input class="w-100 my-1 form-control" id="datetime_local" name="datetime_local"  type="datetime-local">
+          </div>
+        
+        </div>
+      </form>
+      </div>
+
+    </section>
+    <section>
+      <div class="container">
+        <div class="row mt-5 mb-3 align-items-center">
+          <div class="col-md-5">
+              <button class="btn btn-primary btn-sm" id="rerender">Re-Render</button>
+              <button class="btn btn-primary btn-sm" id="distory">Distory</button>
+              <button class="btn btn-primary btn-sm" id="refresh">Refresh</button>
+          </div>
+          <div class="col-md-3">
+            <input type="text" class="form-control" placeholder="Search in table..." id="searchField">
+          </div>
+          <div class="col-md-2 text-right">
+            <span class="pr-3">Rows Per Page:</span>
+          </div>
+          <div class="col-md-2">
+              <div class="d-flex justify-content-end">
+                  <select class="custom-select" name="rowsPerPage" id="changeRows">
+                      <option value="1">1</option>
+                      <option value="5" selected>5</option>
+                      <option value="10">10</option>
+                      <option value="15">15</option>
+                  </select>
+              </div>
+          </div>
+      </div>
+        <div class="table-sortable" id="table-sortable"> </div>
+
+        
+      <!-- <div id="root"></div> -->
+
+      </div>
+    </section>
+    </div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+  <script src="./js/table-sortable.js"></script>
+  <script src="./js/jqueryform_local.js"></script>
+
+  <!-- For TABLE PLUGIN https://www.jqueryscript.net/table/Paginate-Sort-Filter-Table-Sortable.html#google_vignette -->
+
+  <script>
+    // var table = $('#table-sortable').tableSortable({
+    //     data: data,
+    //     columns: columns,
+    //     searchField: '#searchField',        
+    //     rowsPerPage: 5,
+    //     pagination: true,
+    // });
+    // $('#changeRows').on('change', function() { table.updateRowsPerPage(parseInt($(this).val(), 10)); });
+    // $('#rerender').click(function() { table.refresh(true); });
+    // $('#distory').click(function() { table.distroy(); });
+    // $('#refresh').click(function() { table.refresh(); });
+    // $('#setPage2').click(function() { table.setPage(1); });
+</script>
+  
+</body>
+</html>
+
+<!-- Pagination, Sorting, Data Filtring -->
+<!-- Sending Email, Mobile Message, WhatsApp Message -->
+ 
+
+<!-- text, email, password, tel, number, url, search, number_range, color, file, hidden, checkbox, radio, time, date, week, month, datetime-local -->
+<!-- data.text, data.email, data.password, data.tel, data.number, data.url, data.search, data.number_range, data.color, data.file, data.hidden, data.checkbox, data.radio, data.time, data.date, data.week, data.month, data.datetime-local -->
+
+          <!-- 
+{
+text : "demo",
+email : "demo",
+password : "demo",
+tel : "demo",
+number : "demo",
+url : "demo",
+search : "demo",
+number_range : "demo",
+color : "demo",
+file : "demo",
+hidden : "demo",
+checkbox : "demo",
+radio : "demo",
+time : "demo",
+date : "demo",
+week : "demo",
+month : "demo",
+datetime-local : "demo",
+} 
+          -->
